@@ -20,7 +20,7 @@ This project uses Terraform to provision Azure infrastructure, including resourc
 1. **Clone the repository**
 
    ```sh
-   git clone <repo-url>
+   git clone https://github.com/gn-anjan/Terraform.git
    cd Azure-VM-TF
    ```
 
