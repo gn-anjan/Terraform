@@ -69,4 +69,4 @@ This project uses Terraform to provision Azure infrastructure, including resourc
 ## Notes
 
 - Sensitive data (like admin passwords) are stored in `terraform.tfvars`. Consider using a secure method for secrets in production.
-- The project uses
+- The project uses the [azurerm](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs) provider.
