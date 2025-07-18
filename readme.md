@@ -20,7 +20,7 @@ This project uses Terraform to provision Azure infrastructure, including resourc
 1. **Clone the repository**
 
    ```sh
-   git clone <repo-url>
+   git clone https://github.com/gn-anjan/Terraform.git
    cd Azure-VM-TF
    ```
 
@@ -69,4 +69,4 @@ This project uses Terraform to provision Azure infrastructure, including resourc
 ## Notes
 
 - Sensitive data (like admin passwords) are stored in `terraform.tfvars`. Consider using a secure method for secrets in production.
-- The project uses
+- The project uses the [azurerm](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs) provider.
